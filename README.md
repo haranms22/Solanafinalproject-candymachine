@@ -5,24 +5,16 @@ This guide will walk you through the steps to set up the user interface (UI) for
 
 ## Prerequisites
 
-Before you begin, make sure you have the following:
+ make sure you have :
 
-1. A Candy Machine configured with the following details in its `config.json` file:
-   - `price`: 0.01
-   - `number`: 10
-   - `symbol`: "H"
-   - `sellerFeeBasisPoints`: 500
-   - `splTokenAccount`: "p6izmM9op6HqiXjnBjCVTETRrcovAXg2WhBsfw3gEB2"
-   - `splToken`: "7WyssGDpand1JoBtC6H9WpyN2wC1Co4bqwhUocA3LQ1F"
-   - `creators`: an array with creator details
-
+1.  - A  Candy Machine with specific informations in its `config.json` file, including pricing, quantity, symbol, seller fee, SPL token account, SPL token, go-live date, and creator details.
 2. A Phantom wallet to act as the minting wallet.
 
 ## Steps
 
 ### 1. Set Up the SPL Token
 
-If you haven't already, create the SPL token following the guidelines from Lesson Three. Make sure to note down the SPL token's address.
+If you don;t have it, create the SPL token following the guidelines from Lesson Three. Make sure to note down the SPL token's address.
 
 
 ### 2. Update Candy Machine Config
